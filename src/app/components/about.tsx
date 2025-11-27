@@ -104,7 +104,7 @@ const About: React.FC = () => {
     <div className="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mb-4">
       <div className="w-32 h-32 mb-2">
     <Image 
-  src="/path/to/image" 
+  src="/image/pfp.png" 
   alt="description" 
   width={500} // Add appropriate width
   height={300} // Add appropriate height

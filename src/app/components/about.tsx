@@ -101,17 +101,16 @@ const About: React.FC = () => {
           >
             <Card className="p-8">
   <div className="w-full h-80 bg-gradient-to-br from-primary-500 to-purple-600 rounded-2xl flex flex-col items-center justify-center">
-    <div className="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mb-4">
-      <div className="w-32 h-32 mb-2">
-    <Image 
-  src="/image/pfp.png" 
-  alt="description" 
-  width={500} // Add appropriate width
-  height={300} // Add appropriate height
-  priority // Optional: if it's above the fold
-/>
-    </div>
-    </div>
+   <div className="w-32 h-32 bg-white/20 rounded-full overflow-hidden flex items-center justify-center mb-4">
+  <Image 
+    src="/image/pfp.png" 
+    alt="samia" 
+    width={128}
+    height={128}
+    className="object-cover w-full h-full"
+    priority
+  />
+</div>
 
     {/* Image container */}
    

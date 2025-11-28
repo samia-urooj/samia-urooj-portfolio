@@ -49,7 +49,7 @@ const scrollToSection = (href: string) => {
             variants={itemVariants}
             className="text-5xl md:text-7xl font-heading font-bold mb-6 "
           >
-            <span className='dark:text-white'>Hi, I am{' '}</span> 
+            <span className='dark:text-white'>Hi, I{"'"}m{' '}</span> 
             <span className="bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text dark:text-white">
              Samia Urooj
             </span>
